@@ -1,15 +1,10 @@
-## 最新情報
+## TYTAN-Grendelとは
 
-2023/06/21 Auto_array関数をより使いやすく。SASamplerの性能も上げました（たぶん本当）
+2023年8月30日時点のtytansdk/tytan（OSS）をコピーして派生させたものです。本家TYTANは1000量子ビット以上の大規模アニーリングに向かうのに対し、こちらのGrendelは「基本的なQUBO設定を通したアルゴリズム教育」と「QUBO設定をいかに簡単に記述できるかの追求」を目指したいと思います。
 
-2023/06/17 N-bit表現を扱うsymbols_nbit, Auto_array.get_nbit_value関数が追加されました。
+GrendelはOSSとします。
 
-2023/06/17 requirements.txtが軽くなりました。
-
-2023/06/12 SASampler, GASamplerの性能が上がりました（ウソかも）
-
-2023/06/10 便利なsymbols_list, symbols_define関数が追加されました。[ドキュメント](https://github.com/tytansdk/tytan/blob/main/document%20.md) が作成されました。
-
+チュートリアル教材、使い方（ドキュメント）などはすべてこのページにまとめていく予定です。
 
 ## TYTAN（タイタン）
 大規模QUBOアニーリングのためのSDKです。
